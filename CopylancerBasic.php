@@ -137,9 +137,7 @@ class CopylancerBasic
         if (!$this->isMethodAllowed($type))
             $type = 'GET';
         $url = $this->makeUrl($namespace, $method) . $this->getParametersString($params);
-        dump($url);
         $result = $this->getResponse($url, $params, $type);
-        dump($result);
         if ($result->status !== 'ok')
             return false;
         return $result->response;
