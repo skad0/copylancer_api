@@ -1,10 +1,7 @@
 <?php
-namespace App\Services\Api;
-
 /**
  * Class CopylancerBasic
  * To see API method reference: http://doc.copylancer.ru/
- * @package app\Services\Api
  */
 class CopylancerBasic
 {
